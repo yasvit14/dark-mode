@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Arial','sans-serif';
+    transition:backgrund-color 0.3s , color 0.3s  ;
+
+}
+
+body.ligth{
+    background-color: white;
+    color: black;
+
+}
+
+body.dark{
+    background-color: black;
+    color:white
+}
+
+.menu{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a{
+    color:#fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+.menu a:hover{
+    color: #ff5722;
+
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+body.ligth .menu{
+    background-color: #007bff;
+
+}
+body.ligth .menu a:hover{
+    color:#0056b3
+
+}
+body.dark .menu{
+    background-color: #444;
+}
+body.dark .menu a:hover{
+    color: #e64a19;
+}
+body.light button{
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2)
+
+}
+body.light button:hover{
+    background-color: #0056b3;
+
+}
+body.dark button{
+    background-color: #ff5722;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(255, 87, 34, 0.3);
+
+}
+body.dark button:hover{
+    background-color: #e64a19;
+}
+.container{
+    text-align: center;
+    margin-top: 20%;
+}
